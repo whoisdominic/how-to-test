@@ -18,6 +18,7 @@ export class HttpClient {
       this.handleResponse,
       this.handleError,
     );
+    return true;
   };
 
   private handleResponse = ({ data }: AxiosResponse) => Promise.resolve(data);

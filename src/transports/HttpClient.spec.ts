@@ -7,7 +7,7 @@ describe('Http Client', () => {
     expect(client).toBeDefined();
   });
 
-  test('initializeResponseInterceptor should be truthy', () => {
-    expect(client['initializeResponseInterceptor']).toBeTruthy();
+  test('instance should be truthy', () => {
+    expect(client['instance']).toBeTruthy();
   });
 });

@@ -1,9 +1,9 @@
 import { TransportLayer } from './transportLayer';
 
 describe('TransportLayer', () => {
-  const client = new TransportLayer();
+  const mockTransportLayer = new TransportLayer();
 
   test('should be defined', () => {
-    expect(client).toBeDefined();
+    expect(mockTransportLayer).toBeDefined();
   });
 });
