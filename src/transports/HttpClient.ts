@@ -1,3 +1,6 @@
+/**
+ * Dominic's toolkit
+ */
 import axios, { AxiosInstance, AxiosResponse, AxiosError } from 'axios';
 
 export class HttpClient {
@@ -19,9 +22,6 @@ export class HttpClient {
 
   private handleResponse = ({ data }: AxiosResponse) => Promise.resolve(data);
 
-  protected handleError = (error: AxiosError) => {
-    return Promise.reject(error);
-  };
+  protected handleError = (error: AxiosError) => Promise.reject(error);
 }
-
 export default HttpClient;
