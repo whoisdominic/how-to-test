@@ -1,5 +1,5 @@
 /**
- * Dominic's toolkit
+ * HTTP Client: Dominic's toolkit
  */
 import axios, { AxiosInstance, AxiosResponse, AxiosError } from 'axios';
 
